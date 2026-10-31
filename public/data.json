@@ -1,0 +1,92 @@
+[
+  {
+    "playerName": "Arjun Mehra",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "battingStyle": "Right-handed",
+    "ballingStyle": "Right-arm off-break",
+    "price": 8500000,
+    "image": "https://api.dicebear.com/9.x/adventurer/svg?seed=Arjun-Mehra"
+  },
+  {
+    "playerName": "Liam Carter",
+    "playerCountry": "Australia",
+    "playerType": "All-rounder",
+    "battingStyle": "Left-handed",
+    "ballingStyle": "Right-arm fast",
+    "price": 9200000,
+    "image": "https://api.dicebear.com/9.x/adventurer/svg?seed=Liam-Carter"
+  },
+  {
+    "playerName": "Rayan Ahmed",
+    "playerCountry": "Bangladesh",
+    "playerType": "Bowler",
+    "battingStyle": "Right-handed",
+    "ballingStyle": "Left-arm orthodox",
+    "price": 4500000,
+    "image": "https://api.dicebear.com/9.x/adventurer/svg?seed=Rayan-Ahmed"
+  },
+  {
+    "playerName": "Noah Williams",
+    "playerCountry": "England",
+    "playerType": "Wicket-keeper",
+    "battingStyle": "Right-handed",
+    "ballingStyle": "Right-arm medium",
+    "price": 7800000,
+    "image": "https://api.dicebear.com/9.x/adventurer/svg?seed=Noah-Williams"
+  },
+  {
+    "playerName": "Kagiso Dlamini",
+    "playerCountry": "South Africa",
+    "playerType": "Bowler",
+    "battingStyle": "Left-handed",
+    "ballingStyle": "Right-arm fast",
+    "price": 6700000,
+    "image": "https://api.dicebear.com/9.x/adventurer/svg?seed=Kagiso-Dlamini"
+  },
+  {
+    "playerName": "Zayan Khan",
+    "playerCountry": "Pakistan",
+    "playerType": "All-rounder",
+    "battingStyle": "Right-handed",
+    "ballingStyle": "Left-arm fast",
+    "price": 8100000,
+    "image": "https://api.dicebear.com/9.x/adventurer/svg?seed=Zayan-Khan"
+  },
+  {
+    "playerName": "Kaito Tanaka",
+    "playerCountry": "Japan",
+    "playerType": "Batsman",
+    "battingStyle": "Left-handed",
+    "ballingStyle": "Right-arm leg-break",
+    "price": 3200000,
+    "image": "https://api.dicebear.com/9.x/adventurer/svg?seed=Kaito-Tanaka"
+  },
+  {
+    "playerName": "Miguel Santos",
+    "playerCountry": "West Indies",
+    "playerType": "All-rounder",
+    "battingStyle": "Right-handed",
+    "ballingStyle": "Right-arm medium-fast",
+    "price": 7500000,
+    "image": "https://api.dicebear.com/9.x/adventurer/svg?seed=Miguel-Santos"
+  },
+  {
+    "playerName": "Oliver Brooks",
+    "playerCountry": "New Zealand",
+    "playerType": "Bowler",
+    "battingStyle": "Right-handed",
+    "ballingStyle": "Left-arm fast-medium",
+    "price": 5900000,
+    "image": "https://api.dicebear.com/9.x/adventurer/svg?seed=Oliver-Brooks"
+  },
+  {
+    "playerName": "Dinesh Perera",
+    "playerCountry": "Sri Lanka",
+    "playerType": "Wicket-keeper",
+    "battingStyle": "Right-handed",
+    "ballingStyle": "Right-arm off-break",
+    "price": 5200000,
+    "image": "https://api.dicebear.com/9.x/adventurer/svg?seed=Dinesh-Perera"
+  }
+]
