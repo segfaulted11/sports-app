@@ -1,7 +1,7 @@
 import currency from "../assets/Currency.png"
 function Navbar() {
   return (
-  <div className="navbar bg-base-100 shadow-sm">
+  <div className="navbar mb-5 bg-base-300 shadow-sm">
   <div className="flex-1">
     <a className="btn btn-ghost text-xl">Sports-App</a>
   </div>
