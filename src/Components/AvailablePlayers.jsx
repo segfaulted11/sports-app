@@ -1,6 +1,7 @@
 import { Flag, UserRound } from "lucide-react";
+import { useState } from "react";
 
-function AvailablePlayers({ player }) {
+function AvailablePlayers({ player,handleChoosedPlayer }) {
   const {
     image,
     playerName,
@@ -10,6 +11,12 @@ function AvailablePlayers({ player }) {
     ballingStyle,
     price,
   } = player;
+
+  const [isDisabled, setIsDisabled] = useState(false);
+  const handleDisabled = ()=>{
+    setIsDisabled(true)
+  }
+
   return (
     <div className="bg-red-400 p-5">
       <img src={image} className="w-full h-40" alt="" />
@@ -36,7 +43,12 @@ function AvailablePlayers({ player }) {
 
       <div className="flex justify-between">
         <p>Price : ${price}</p>
-        <button className="btn btn-soft">Choose Player</button>
+        <button className="btn btn-soft" 
+        onClick={()=>{handleChoosedPlayer(player);
+        handleDisabled();    
+        }}
+        disabled={isDisabled}
+        >Choose Player</button>
       </div>
     </div>
   );

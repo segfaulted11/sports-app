@@ -7,13 +7,18 @@ function Players({ playersPromise }) {
 
   const playerData = use(playersPromise);
 
+const [choosedPlayer,setChoosedPlayer] = useState([]);
+const handleChoosedPlayer = (player)=>{
+setChoosedPlayer([...choosedPlayer,player]);
+}
+console.log(choosedPlayer.length)
   return (
     <div>
       <div className="flex justify-between mb-3">
         <h1 className="text-3xl font-bold">
           {selectedType === "available"
             ? "Available Players"
-            : "Selected Players ()"}
+            : `Selected Players (${choosedPlayer.length}/6)`}
         </h1>
 
         <div>
@@ -27,7 +32,7 @@ function Players({ playersPromise }) {
             className={`btn ${selectedType === "selected" ? "btn-error" : "btn-soft"} mr-2`}
             onClick={() => setselectedType("selected")}
           >
-            Selected(0)
+            Selected({choosedPlayer.length})
           </button>
         </div>
       </div>
@@ -35,11 +40,11 @@ function Players({ playersPromise }) {
       {selectedType === "available" ? (
         <div className="grid grid-cols-3 gap-2">
           {playerData.map((player, index) => (
-            <AvailablePlayers player={player} key={index} />
+            <AvailablePlayers player={player} key={index} handleChoosedPlayer={handleChoosedPlayer} />
           ))}
         </div>
       ) : (
-        <SelectedPlayers />
+        <SelectedPlayers  choosedPlayer={choosedPlayer}/>
       )}
     </div>
   );
